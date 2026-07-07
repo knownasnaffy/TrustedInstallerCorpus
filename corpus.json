@@ -1,0 +1,35 @@
+[
+  {
+    "seed_url": "https://bun.sh/install",
+    "occurrences": 866,
+    "unique_repositories": 708,
+    "unique_owners": 686,
+    "median_repo_stars": 0.0,
+    "max_repo_stars": 382102,
+    "first_seen": "2026-07-07T23:14:43.629031Z",
+    "last_seen": "2026-07-07T23:15:01.036885Z",
+    "truncated": false
+  },
+  {
+    "seed_url": "https://get.docker.com",
+    "occurrences": 82,
+    "unique_repositories": 81,
+    "unique_owners": 81,
+    "median_repo_stars": 2.0,
+    "max_repo_stars": 972,
+    "first_seen": "2026-07-07T23:16:44.668583Z",
+    "last_seen": "2026-07-07T23:16:44.668583Z",
+    "truncated": false
+  },
+  {
+    "seed_url": "https://sh.rustup.rs",
+    "occurrences": 868,
+    "unique_repositories": 819,
+    "unique_owners": 805,
+    "median_repo_stars": 1.0,
+    "max_repo_stars": 140354,
+    "first_seen": "2026-07-07T23:15:45.480773Z",
+    "last_seen": "2026-07-07T23:16:07.688299Z",
+    "truncated": false
+  }
+]

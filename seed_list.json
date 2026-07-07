@@ -1,0 +1,982 @@
+[
+  {
+    "url": "https://bun.sh/install",
+    "domain": "bun.sh",
+    "source": "manual"
+  },
+  {
+    "url": "https://sh.rustup.rs",
+    "domain": "sh.rustup.rs",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.docker.com",
+    "domain": "get.docker.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://pyenv.run",
+    "domain": "pyenv.run",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.sdkman.io",
+    "domain": "get.sdkman.io",
+    "source": "manual"
+  },
+  {
+    "url": "https://deno.land/install.sh",
+    "domain": "deno.land",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://install.julialang.org",
+    "domain": "install.julialang.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.golang.org/install.sh",
+    "domain": "get.golang.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://nim-lang.org/choosenim/init.sh",
+    "domain": "nim-lang.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/rbenv/rbenv-installer/main/bin/rbenv-installer",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kubernetes-sigs/kind/main/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.k3s.io",
+    "domain": "get.k3s.io",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://starship.rs/install.sh",
+    "domain": "starship.rs",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/neovim/neovim/master/scripts/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.rvm.io",
+    "domain": "get.rvm.io",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/wasmerio/wasmer-install/master/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.volta.sh",
+    "domain": "get.volta.sh",
+    "source": "manual"
+  },
+  {
+    "url": "https://proto.moonrepo.dev/install.sh",
+    "domain": "proto.moonrepo.dev",
+    "source": "manual"
+  },
+  {
+    "url": "https://mise.run",
+    "domain": "mise.run",
+    "source": "manual"
+  },
+  {
+    "url": "https://install.determinate.systems/nix",
+    "domain": "install.determinate.systems",
+    "source": "manual"
+  },
+  {
+    "url": "https://nixos.org/nix/install",
+    "domain": "nixos.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.haskellstack.org/",
+    "domain": "get.haskellstack.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.ghcup.haskell.org",
+    "domain": "get.ghcup.haskell.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://apt.releases.hashicorp.com/gpg",
+    "domain": "apt.releases.hashicorp.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hashicorp/terraform/main/scripts/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kubernetes/kubectl/master/scripts/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/install_google_cloud_sdk.bash",
+    "domain": "dl.google.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/aws/aws-cli/v2/scripts/install",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://aka.ms/InstallAzureCLIDeb",
+    "domain": "aka.ms",
+    "source": "manual"
+  },
+  {
+    "url": "https://cli.github.com/packages/install.sh",
+    "domain": "cli.github.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/vercel/install/main/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://install.fly.io/install.sh",
+    "domain": "install.fly.io",
+    "source": "manual"
+  },
+  {
+    "url": "https://getcomposer.org/installer",
+    "domain": "getcomposer.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sdispater/poetry/master/install-poetry.py",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://install.python-poetry.org",
+    "domain": "install.python-poetry.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://pdm-project.org/install-pdm.py",
+    "domain": "pdm-project.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://rye.astral.sh/get",
+    "domain": "rye.astral.sh",
+    "source": "manual"
+  },
+  {
+    "url": "https://astral.sh/uv/install.sh",
+    "domain": "astral.sh",
+    "source": "manual"
+  },
+  {
+    "url": "https://test.docker.com",
+    "domain": "test.docker.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://releases.rancher.com/install-docker/20.10.sh",
+    "domain": "releases.rancher.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/rancher/k3d/main/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://storage.googleapis.com/minikube/releases/latest/minikube-installer.sh",
+    "domain": "storage.googleapis.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DataDog/datadog-agent/main/cmd/agent/install_script.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://download.newrelic.com/install/newrelic-cli/scripts/install.sh",
+    "domain": "download.newrelic.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/grafana/agent/main/production/install-agent.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://binaries.cockroachdb.com/install_cockroachdb.sh",
+    "domain": "binaries.cockroachdb.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://repos.influxdata.com/influxdb.key",
+    "domain": "repos.influxdata.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://www.mongodb.org/static/pgp/server-7.0.asc",
+    "domain": "www.mongodb.org",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/tj/n/master/bin/n",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://fnm.vercel.app/install",
+    "domain": "fnm.vercel.app",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.pnpm.io/install.sh",
+    "domain": "get.pnpm.io",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.jenkins.io/redhat/jenkins.repo",
+    "domain": "get.jenkins.io",
+    "source": "manual"
+  },
+  {
+    "url": "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh",
+    "domain": "packages.gitlab.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/zplug/installer/master/installer.zsh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/zimfw/install/master/install.zsh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/zprezto/zprezto/master/init.zsh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://sh.opam.run",
+    "domain": "sh.opam.run",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.fleek.co/install",
+    "domain": "get.fleek.co",
+    "source": "manual"
+  },
+  {
+    "url": "https://taskfile.dev/install.sh",
+    "domain": "taskfile.dev",
+    "source": "manual"
+  },
+  {
+    "url": "https://just.systems/install.sh",
+    "domain": "just.systems",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/casey/just/master/install.sh",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://webi.sh/",
+    "domain": "webi.sh",
+    "source": "manual"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/denisidoro/navi/master/scripts/install",
+    "domain": "raw.githubusercontent.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.fig.io/install",
+    "domain": "get.fig.io",
+    "source": "manual"
+  },
+  {
+    "url": "https://getcroc.schollz.com",
+    "domain": "getcroc.schollz.com",
+    "source": "manual"
+  },
+  {
+    "url": "https://get.aquasecurity.github.io/trivy/install.sh",
+    "domain": "get.aquasecurity.github.io",
+    "source": "manual"
+  },
+  {
+    "url": "https://dl.min.io/client/mc/release/linux-amd64/mc",
+    "domain": "dl.min.io",
+    "source": "manual"
+  },
+  {
+    "url": "https://github.com/changyuheng/fz.sh",
+    "domain": "github.com",
+    "source": "scraped:awesome-cli"
+  },
+  {
+    "url": "https://github.com/pipeseroni/pipes.sh",
+    "domain": "github.com",
+    "source": "scraped:awesome-cli"
+  },
+  {
+    "url": "https://github.com/suewonjp/lf.sh",
+    "domain": "github.com",
+    "source": "scraped:awesome-cli"
+  },
+  {
+    "url": "https://github.com/lehmannro/assert.sh",
+    "domain": "github.com",
+    "source": "scraped:awesome-cli"
+  },
+  {
+    "url": "https://github.com/Checksum/critic.sh",
+    "domain": "github.com",
+    "source": "scraped:awesome-cli"
+  },
+  {
+    "url": "https://github.com/qzb/is.sh",
+    "domain": "github.com",
+    "source": "scraped:awesome-cli"
+  },
+  {
+    "url": "https://webi.sh/aliasman",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/arc",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/atomicparsley",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/awless",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/bat",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/brew",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/bun",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/caddy",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/chromedriver",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/comrak",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/curlie",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/delta",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/deno",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/dotenv",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/dotenv-linter",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/duckdns.sh",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/favicon.ico",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/fd",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/ffmpeg",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/ffuf",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/fish",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/flutter",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/gh",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/git",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/git-config-gpg",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/gitdeploy",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/gitea",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/go-essentials",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/golang",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/goreleaser",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/gpg",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/gpg-pubkey",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/grype",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/hexyl",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/hugo",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/hugo-extended",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/iterm2",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/iterm2-themes",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/iterm2-utils",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/jq",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/julia",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/k9s",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/keypairs",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/kind",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/kubectx",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/kubens",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/lsd",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/myip",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/nerdfont",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/node",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/ollama",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/pandoc",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/pathman",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/postgres",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/powershell",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/prettier",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/psql",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/pwsh-essentials",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/pyenv",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/rclone",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/redis-commander",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/rg",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/runzip",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/rustlang",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/sass",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/sclient",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/sd",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/serviceman",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/setcap-netbind",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/shellcheck",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/shfmt",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/sitemap.xml",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/sqlc",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/sqlpkg",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/ssh-adduser",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/ssh-authorize",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/ssh-pubkey",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/sudo",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/syncthing",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/terraform",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/terramate",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/tinygo",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/trip",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/uuidv7",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vcruntime",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-airline",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-ale",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-commentary",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-devicons",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-essentials",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-go",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-gui",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-italics",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-lastplace",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-leader",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-nerdtree",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-prettier",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-rust",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-sensible",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-shell",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-smartcase",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-spell",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-syntastic",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-viminfo",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-whitespace",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vim-zig",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/vps-addswap",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/watchexec",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/webi",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/wsl",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/xcaddy",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/xsv",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/xz",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/yq",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  },
+  {
+    "url": "https://webi.sh/zig",
+    "domain": "webi.sh",
+    "source": "scraped:webinstall_dev"
+  }
+]
