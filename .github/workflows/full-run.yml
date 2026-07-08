@@ -1,0 +1,45 @@
+name: Trusted Installer Corpus Full Run
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Auth gh CLI
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      - name: Run pipeline
+        run: |
+          python crawler.py
+          python enrich.py
+          python aggregate.py
+          python export.py
+
+      - name: Commit and push corpus.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update corpus.json [skip ci]"
+          file_pattern: corpus.json
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: corpus-json
+          path: corpus.json
