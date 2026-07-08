@@ -22,12 +22,13 @@ def test_repo_metadata_fetch_and_cache(db):
     db.execute("INSERT INTO repos (full_name, owner, stars, fetched_at) VALUES ('owner/repo1', 'owner', 10, '2023-01-01T00:00:00Z')")
     
     fetches = []
-    def mock_fetch(repo_full_name, token):
+    def mock_fetch(repo_full_name, token, limiter):
         fetches.append(repo_full_name)
         return {"owner": {"login": repo_full_name.split('/')[0]}, "stargazers_count": 42}
         
-    fetch_and_store_metadata(db, 'owner/repo1', mock_fetch, 'dummy_token')
-    fetch_and_store_metadata(db, 'owner/repo2', mock_fetch, 'dummy_token')
+    limiter = None
+    fetch_and_store_metadata(db, 'owner/repo1', mock_fetch, 'dummy_token', limiter)
+    fetch_and_store_metadata(db, 'owner/repo2', mock_fetch, 'dummy_token', limiter)
     
     assert fetches == ['owner/repo2']
     

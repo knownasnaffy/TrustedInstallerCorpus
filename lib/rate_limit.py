@@ -15,16 +15,28 @@ class GitHubRateLimiter:
 
     def _proactive_throttle(self):
         now = time.time()
+        
+        if self.calls_per_minute > 0:
+            min_interval = 60.0 / self.calls_per_minute
+            if self.call_timestamps:
+                time_since_last = now - self.call_timestamps[-1]
+                if time_since_last < min_interval:
+                    sleep_time = min_interval - time_since_last
+                    logger.info(f"Proactive throttle: sleeping for {sleep_time:.2f} seconds to space requests")
+                    time.sleep(sleep_time)
+                    now = time.time()
+
         # Keep timestamps from the last 60 seconds
         self.call_timestamps = [t for t in self.call_timestamps if now - t < 60]
         
-        if len(self.call_timestamps) >= self.calls_per_minute:
+        if self.calls_per_minute > 0 and len(self.call_timestamps) >= self.calls_per_minute:
             sleep_time = 60 - (now - self.call_timestamps[0])
             if sleep_time > 0:
                 logger.info(f"Proactive throttle: sleeping for {sleep_time:.2f} seconds")
                 time.sleep(sleep_time)
+                now = time.time()
         
-        self.call_timestamps.append(time.time())
+        self.call_timestamps.append(now)
 
     def update_from_headers(self, headers: dict):
         if "X-RateLimit-Remaining" in headers:

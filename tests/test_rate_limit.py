@@ -7,16 +7,16 @@ from lib.rate_limit import GitHubRateLimiter
 def test_proactive_throttle():
     limiter = GitHubRateLimiter(calls_per_minute=10)
     with patch("time.sleep") as mock_sleep:
-        # Call 10 times, should not sleep
-        for _ in range(10):
-            limiter.wait_if_needed()
+        # First call doesn't sleep for spacing
+        limiter.wait_if_needed()
+        assert not mock_sleep.called
         
-        # 11th call should sleep
+        # Second call sleeps for spacing (6.0s for 10/min)
         limiter.wait_if_needed()
         assert mock_sleep.called
 
 def test_header_rate_limit_handling():
-    limiter = GitHubRateLimiter()
+    limiter = GitHubRateLimiter(calls_per_minute=0)
     
     mock_response = MagicMock(spec=requests.Response)
     mock_response.headers = {
@@ -30,7 +30,7 @@ def test_header_rate_limit_handling():
         assert mock_sleep.called
 
 def test_retry_on_network_error():
-    limiter = GitHubRateLimiter()
+    limiter = GitHubRateLimiter(calls_per_minute=0)
     
     # A function that fails 2 times then succeeds
     mock_func = MagicMock()
@@ -43,7 +43,7 @@ def test_retry_on_network_error():
         assert mock_sleep.call_count == 2
 
 def test_retry_on_5xx():
-    limiter = GitHubRateLimiter()
+    limiter = GitHubRateLimiter(calls_per_minute=0)
     
     mock_response_500 = MagicMock(spec=requests.Response)
     mock_response_500.status_code = 500
@@ -64,7 +64,7 @@ def test_retry_on_5xx():
         assert mock_sleep.call_count == 1
 
 def test_secondary_rate_limit_403():
-    limiter = GitHubRateLimiter()
+    limiter = GitHubRateLimiter(calls_per_minute=0)
     
     mock_response_403 = MagicMock(spec=requests.Response)
     mock_response_403.status_code = 403
@@ -85,7 +85,7 @@ def test_secondary_rate_limit_403():
         mock_sleep.assert_called_with(5)
 
 def test_max_retries_exceeded():
-    limiter = GitHubRateLimiter(max_retries=3)
+    limiter = GitHubRateLimiter(calls_per_minute=0, max_retries=3)
     
     mock_func = MagicMock()
     mock_func.side_effect = requests.exceptions.ConnectionError

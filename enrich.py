@@ -15,13 +15,12 @@ def get_distinct_repos(conn: sqlite3.Connection) -> Set[str]:
     cur = conn.execute("SELECT DISTINCT repo_full_name FROM raw_hits")
     return {row[0] for row in cur.fetchall()}
 
-def default_fetch_repo_metadata(repo_full_name: str, token: str) -> dict:
+def default_fetch_repo_metadata(repo_full_name: str, token: str, limiter: GitHubRateLimiter) -> dict:
     url = f"https://api.github.com/repos/{repo_full_name}"
     headers = {
         "Accept": "application/vnd.github.v3+json",
         "Authorization": f"Bearer {token}"
     }
-    limiter = GitHubRateLimiter()
     resp = limiter.execute_with_retry(requests.get, url, headers=headers)
     resp.raise_for_status()
     return resp.json()
@@ -29,8 +28,9 @@ def default_fetch_repo_metadata(repo_full_name: str, token: str) -> dict:
 def fetch_and_store_metadata(
     conn: sqlite3.Connection,
     repo_full_name: str,
-    fetch_fn: Callable[[str, str], dict],
-    token: str
+    fetch_fn: Callable,
+    token: str,
+    limiter: GitHubRateLimiter
 ):
     """Fetch repo metadata and cache it in the repos table. Skip if already exists."""
     cur = conn.execute("SELECT 1 FROM repos WHERE full_name = ?", (repo_full_name,))
@@ -40,7 +40,7 @@ def fetch_and_store_metadata(
 
     logging.info(f"Fetching metadata for {repo_full_name}")
     try:
-        data = fetch_fn(repo_full_name, token)
+        data = fetch_fn(repo_full_name, token, limiter)
     except Exception as e:
         logging.error(f"Failed to fetch {repo_full_name}: {e}")
         return
@@ -63,8 +63,9 @@ def enrich():
         sys.exit(1)
         
     repos = get_distinct_repos(conn)
+    limiter = GitHubRateLimiter(calls_per_minute=80)  # Core API is 5000/hr
     for repo in repos:
-        fetch_and_store_metadata(conn, repo, default_fetch_repo_metadata, token)
+        fetch_and_store_metadata(conn, repo, default_fetch_repo_metadata, token, limiter)
 
 if __name__ == "__main__":
     enrich()
